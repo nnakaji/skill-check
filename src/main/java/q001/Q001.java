@@ -1,4 +1,4 @@
-// package q001;
+package q001;
 
 /**
  * Q001 mainを作る
