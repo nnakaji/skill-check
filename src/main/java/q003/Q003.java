@@ -109,7 +109,6 @@ public class Q003 {
             // 3.比較関数Comparatorを使用してMap.Entryの値を比較する(昇順)
             Collections.sort(list_entries, new Comparator<Entry<String, Data>>() {
                 public int compare(Entry<String, Data> obj1, Entry<String, Data> obj2) {
-                    // 4. 昇順
                     return obj1.getValue().word.compareTo(obj2.getValue().word);
                 }
             });
