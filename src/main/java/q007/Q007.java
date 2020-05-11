@@ -26,5 +26,10 @@ XXXXXXXXX
 14
  */
 public class Q007 {
+    public static void main(String[] args) {
+        MazeInputStream mazeIn = new MazeInputStream();
+
+        System.out.println(mazeIn);
+    }
 }
 // 完成までの時間: xx時間 xx分

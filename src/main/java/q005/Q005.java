@@ -30,5 +30,12 @@ T-7-30002: xx時間xx分
 （省略）
  */
 public class Q005 {
+    public static void main(String[] args) {
+        WorkData workData1 = new WorkData();
+
+        workData1.calcSumPosition();
+        workData1.calcSumPcode();
+        workData1.calcSumNumber();
+    }
 }
-// 完成までの時間: xx時間 xx分
+// 完成までの時間: 8時間 00分
